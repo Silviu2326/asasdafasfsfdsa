@@ -1,0 +1,20 @@
+{
+  "name": "asda-backend",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.5.0",
+    "typescript": "^5.1.6"
+  }
+}
